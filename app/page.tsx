@@ -1,91 +1,42 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import Image from 'next/image';
+import { Inter } from '@next/font/google';
+import styles from './page.module.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+    <main>
+      <div className="p-8 m-auto w-3/4 mt-24 min-h-screen">
+        <h1 className="text-l text-slate-300 mb-7">Hello, my name is</h1>
+        <p className="mb-2 text-7xl text-indigo-500 font-bold">
+          Mirmukhammad Mirsodikov.
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+        <p className="mt-5 text-7xl text-indigo-300 font-bold">
+          I build websites, I guess.
+        </p>
+        <p className="mt-6 text-slate-400 w-1/2">
+          I am a software engineer specializing in full stack web and mobile
+          development. I am currently working on a suite of hospital budgeting
+          tools at StaffWise.
+        </p>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
+      <div className="p-8 m-auto w-3/4 min-h-screen" id='about'>
+        <h1 className="text-left text-slate-300 text-3xl font-bold mt-16">About</h1>
+        <hr className="border-slate-600 mt-2" />
+        <p className='text-slate-400 w-1/2 mt-4'>
+          My name is Mirmukhammad Mirsodikov and I am a software engineer.
+        </p>
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <div className="p-8 m-auto w-3/4">
+        <h1 className="text-left text-slate-300 text-3xl">Work Experience</h1>
+      </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="p-8 m-auto w-3/4">
+        <h1 className="text-left text-slate-300 text-3xl">Projects</h1>
       </div>
     </main>
-  )
+  );
 }
