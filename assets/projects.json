@@ -16,7 +16,7 @@
       "Vue",
       "TypeScript",
       "Prisma",
-      "Postgres",
+      "PostgreSQL",
       "JWT"
     ],
     "link": "https://lie-detection-survey-client.herokuapp.com",
@@ -32,7 +32,7 @@
       "TypeScript",
       "Go",
       "JWT",
-      "Postgres"
+      "PostgreSQL"
     ],
     "github": "https://github.com/Hermes-Chat-App"
   },

@@ -21,7 +21,7 @@ export function Projects() {
   const projects = projectsJson as Project[];
   return (
     <Section id="projects" title="Projects">
-      <div className="mt-8 grid md:grid-cols-2 sm:gird-cols-1 lg:grid-cols-3 gap-4">
+      <div className="mt-8 grid md:grid-cols-2 sm:gird-cols-1 xl:grid-cols-3 gap-4">
         {projects.map((project) => (
           <Card
             key={project.name}
