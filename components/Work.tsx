@@ -39,13 +39,13 @@ export function WorkExperience() {
           {staffWiseSkills.map((skill) => (
             <span
               key={skill}
-              className="text-slate-300 text-sm mt-2 inline-block mr-2 bg-indigo-600 p-1 rounded-md"
+              className="text-slate-200 text-sm mt-2 inline-block mr-2 bg-indigo-600 p-1 rounded-md"
             >
               {skill}
             </span>
           ))}
         </Card>
-        <Card title="Textron Aviation - Software Engineer">
+        <Card title="Textron Aviation - Software Engineer (Intern)">
           <p className="text-slate-400 text-sm">June 2022 - August 2022</p>
           <ul className="list-disc text-slate-300 ml-4 mt-4 space-y-2 text-base mb-2">
             <li>
@@ -65,7 +65,7 @@ export function WorkExperience() {
           {textronSkills.map((skill) => (
             <span
               key={skill}
-              className="text-slate-300 text-sm mt-2 inline-block mr-2 bg-indigo-600 p-1 rounded-md"
+              className="text-slate-200 text-sm mt-2 inline-block mr-2 bg-indigo-600 p-1 rounded-md"
             >
               {skill}
             </span>
