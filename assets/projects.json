@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GymArc",
+    "description": "Cross platform mobile application designed to allow users to track their gym workouts, view their previous workouts, create templates and plans, and view their progress.",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "SQLite",
+      "GraphQL"
+    ]
+  },
+  {
+    "name": "Lie Detection Survey",
+    "description": "A web application that allows users to create prompts and share them with participants. Each word in a prompt is shown to the participant one at a time at a speed predetermined by the creator to see the effects of speed on the participant's ability to detect lies.",
+    "skills": [
+      "Vue",
+      "TypeScript",
+      "Prisma",
+      "Postgres",
+      "JWT"
+    ],
+    "link": "https://lie-detection-survey-client.herokuapp.com",
+    "github": "https://github.com/mir-mirsodikov/lie-detection-survey-client"
+  },
+  {
+    "name": "Hermes",
+    "description": "A web application for real-time communication between users. Users can create rooms and invite other users to join them.",
+    "skills": [
+      "Vue",
+      "Nuxt",
+      "TailWind",
+      "TypeScript",
+      "Go",
+      "JWT",
+      "Postgres"
+    ],
+    "github": "https://github.com/Hermes-Chat-App"
+  },
+  {
+    "name": "Portfolio",
+    "description": "My personal portfolio website. This very website you're looking at right now.",
+    "skills": [
+      "React",
+      "Next",
+      "TypeScript",
+      "TailWind"
+    ],
+    "github": "https://github.com/mir-mirsodikov/portfolio"
+  }
+]

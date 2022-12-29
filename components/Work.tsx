@@ -1,5 +1,6 @@
 import { Card } from './Card';
 import { Section } from './Section';
+import { SkillCard } from './SkillCard';
 
 export function WorkExperience() {
   const staffWiseSkills = [
@@ -37,12 +38,7 @@ export function WorkExperience() {
           </ul>
 
           {staffWiseSkills.map((skill) => (
-            <span
-              key={skill}
-              className="text-slate-200 text-sm mt-2 inline-block mr-2 bg-indigo-600 p-1 rounded-md"
-            >
-              {skill}
-            </span>
+            <SkillCard key={skill} title={skill} />
           ))}
         </Card>
         <Card title="Textron Aviation - Software Engineer (Intern)">
@@ -63,12 +59,7 @@ export function WorkExperience() {
             </li>
           </ul>
           {textronSkills.map((skill) => (
-            <span
-              key={skill}
-              className="text-slate-200 text-sm mt-2 inline-block mr-2 bg-indigo-600 p-1 rounded-md"
-            >
-              {skill}
-            </span>
+            <SkillCard key={skill} title={skill} />
           ))}
         </Card>
       </div>
