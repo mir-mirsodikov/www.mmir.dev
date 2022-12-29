@@ -19,10 +19,11 @@ export default function RootLayout({
           <NavBar />
         </div>
 
-        <div className='md:hidden'>
+        <div className="md:hidden">
           <NavigationDrawer />
         </div>
         {children}
+
       </body>
     </html>
   );

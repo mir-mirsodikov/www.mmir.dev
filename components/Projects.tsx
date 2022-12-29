@@ -1,7 +1,7 @@
 import React from 'react';
 import projectsJson from '../assets/projects.json';
 import { Card } from './Card';
-import { LaunchIcon, RepoLinkIcon } from './Icons';
+import { GitHubIcon, LaunchIcon } from './Icons';
 import { Section } from './Section';
 import { SkillCard } from './SkillCard';
 
@@ -28,18 +28,19 @@ export function Projects() {
             title={project.name}
             repoIcon={
               project.github ? (
-                <RepoLinkIcon link={project.github} />
+                <GitHubIcon link={project.github} />
               ) : undefined
             }
             launchIcon={
               project.link ? <LaunchIcon link={project.link} /> : undefined
             }
           >
-            <div className='flex flex-col justify-evenly'>
+            <div className='flex flex-col justify-between'>
 
-              <div>
+              <div className='row-span-2'>
                 <p className="text-slate-400 my-4">{project.description}</p>
               </div>
+
               <div>
                 {project.skills.map((skill) => (
                   <SkillCard key={skill} title={skill} />
@@ -48,25 +49,6 @@ export function Projects() {
             </div>
           </Card>
         ))}
-        {/* <Card title="GymArc" icon={<LaunchIcon />}>
-          <p className='text-slate-400 text-base my-4'>
-            Cross platform mobile application designed to allow users to track
-            their gym workouts, view their previous workouts, create templates and plans,
-            and view their progress.
-          </p>
-          {skills['gymarc'].map((skill) => (
-            <SkillCard key={skill} title={skill} />
-          ))}
-        </Card>
-
-        <Card title="Lie Detection Survey">
-          <p className='text-slate-400 text-base my-4'>
-
-          </p>
-        </Card>
-        <Card title="Hermes">
-          <p className="text-slate-400 text-sm">July 2021 - Present</p>
-        </Card> */}
       </div>
     </Section>
   );

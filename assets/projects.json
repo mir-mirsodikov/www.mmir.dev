@@ -10,25 +10,11 @@
     ]
   },
   {
-    "name": "Lie Detection Survey",
-    "description": "A web application that allows users to create prompts and share them with participants. Each word in a prompt is shown to the participant one at a time at a speed predetermined by the creator to see the effects of speed on the participant's ability to detect lies.",
-    "skills": [
-      "Vue",
-      "TypeScript",
-      "Prisma",
-      "PostgreSQL",
-      "JWT"
-    ],
-    "link": "https://lie-detection-survey-client.herokuapp.com",
-    "github": "https://github.com/mir-mirsodikov/lie-detection-survey-client"
-  },
-  {
     "name": "Hermes",
-    "description": "A web application for real-time communication between users. Users can create rooms and invite other users to join them.",
+    "description": "A web application for real-time communication between users. Users can create rooms and invite other users to join them. A web-based, open source alternative to Discord.",
     "skills": [
       "Vue",
       "Nuxt",
-      "TailWind",
       "TypeScript",
       "Go",
       "JWT",
@@ -46,5 +32,18 @@
       "TailWind"
     ],
     "github": "https://github.com/mir-mirsodikov/portfolio"
+  },
+  {
+    "name": "Research Survey",
+    "description": "A web application that allows users to create prompts and share them with participants. Each word in a prompt is shown to the participant one at a time at a speed predetermined by the creator to see the effects of speed on the participant's ability to detect lies.",
+    "skills": [
+      "Vue",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "JWT"
+    ],
+    "link": "https://lie-detection-survey-client.herokuapp.com",
+    "github": "https://github.com/mir-mirsodikov/lie-detection-survey-client"
   }
 ]
