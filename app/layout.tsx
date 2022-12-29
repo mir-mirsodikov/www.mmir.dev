@@ -1,4 +1,5 @@
 import { NavBar } from '../components/NavBar';
+import { NavigationDrawer } from '../components/NavigationDrawer';
 import './globals.css';
 
 export default function RootLayout({
@@ -14,8 +15,12 @@ export default function RootLayout({
       */}
       <head />
       <body className="bg-slate-900 font-mono">
-        <div className="md:visible invisible sticky top-0 z-50">
+        <div className="md:visible invisible md:sticky md:top-0 md:z-50">
           <NavBar />
+        </div>
+
+        <div className='md:hidden'>
+          <NavigationDrawer />
         </div>
         {children}
       </body>
