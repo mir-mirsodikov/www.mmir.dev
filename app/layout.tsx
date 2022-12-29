@@ -14,7 +14,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-slate-900 font-mono">
+      <body className="bg-slate-900 font-mono" id='home'>
         <div className="md:visible invisible md:sticky md:top-0 md:z-50">
           <NavBar />
         </div>
