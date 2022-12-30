@@ -1,3 +1,4 @@
+import { AnalyticsWrapper } from '../components/Analytics';
 import { NavBar } from '../components/NavBar';
 import { NavigationDrawer } from '../components/NavigationDrawer';
 import './globals.css';
@@ -23,7 +24,7 @@ export default function RootLayout({
           <NavigationDrawer />
         </div>
         {children}
-
+        <AnalyticsWrapper />
       </body>
     </html>
   );
