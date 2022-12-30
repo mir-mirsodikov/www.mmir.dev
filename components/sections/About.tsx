@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import portrait from '../public/pic.jpeg';
-import { Section } from './Section';
-import { SkillCard } from './SkillCard';
+import portrait from '../../public/pic.jpeg';
+import { Section } from '../Section';
+import { SkillCard } from '../SkillCard';
 
 export function About() {
   const skills = [

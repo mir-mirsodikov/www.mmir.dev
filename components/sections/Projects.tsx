@@ -1,9 +1,8 @@
-import React from 'react';
-import projectsJson from '../assets/projects.json';
-import { Card } from './Card';
-import { GitHubIcon, LaunchIcon } from './Icons';
-import { Section } from './Section';
-import { SkillCard } from './SkillCard';
+import projectsJson from '../../assets/projects.json';
+import { Card } from '../Card';
+import { GitHubIcon, LaunchIcon } from '../Icons';
+import { Section } from '../Section';
+import { SkillCard } from '../SkillCard';
 
 interface Project {
   name: string;

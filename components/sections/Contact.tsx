@@ -1,5 +1,5 @@
-import { GitHubIcon, LinkedInIcon } from './Icons';
-import { Section } from './Section';
+import { GitHubIcon, LinkedInIcon } from '../Icons';
+import { Section } from '../Section';
 
 export function Contact() {
   return (

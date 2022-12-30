@@ -1,6 +1,6 @@
-import { Card } from './Card';
-import { Section } from './Section';
-import { SkillCard } from './SkillCard';
+import { Card } from '../Card';
+import { Section } from '../Section';
+import { SkillCard } from '../SkillCard';
 
 export function WorkExperience() {
   const staffWiseSkills = [
