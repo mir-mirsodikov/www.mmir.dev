@@ -20,12 +20,17 @@ export function About() {
             while finishing my final semester of college at Wichita State
             University, where I am studying Computer Science.
           </p>
+          <p>
+            In my free time, I enjoy working out, running, playing chess, and origami. 
+            Currently, my free time is taken up by research and development of my own projects,
+            where I am learning about building real time, concurrent, and distributed systems.
+          </p>
         </div>
         <div className="items-start md:order-none order-first m-auto">
           <Image
             src={portrait}
             alt="Self portrait"
-            className="mt-4 xl:mr-8 md:w-96 rounded-full w-48"
+            className="mt-4 xl:mr-8 md:w-96 flex rounded-full w-48"
           />
         </div>
       </div>

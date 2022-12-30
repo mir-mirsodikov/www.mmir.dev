@@ -6,8 +6,8 @@ import { Skills } from '../components/sections/Skills';
 
 export default function Home() {
   return (
-    <main className='pb-24'>
-      <div className="md:p-8 p-6 m-auto md:w-3/4 xl:mt-48 xl:-mb-48 min-h-screen" >
+    <main className="pb-24">
+      <div className="md:p-8 p-6 m-auto xl:w-3/4 w-full xl:mt-48 xl:-mb-48 min-h-screen">
         <h1 className="text-l text-slate-300 mb-7">Hello, my name is</h1>
         <p className="mb-2 md:text-7xl text-4xl text-indigo-500 font-bold">
           Mirmukhammad Mirsodikov.
