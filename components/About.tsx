@@ -58,11 +58,11 @@ export function About() {
             </div>
           ))}
         </div>
-        <div className="items-start">
+        <div className="items-start md:order-none order-first m-auto">
           <Image
             src={portrait}
             alt="Self portrait"
-            className="mt-4 xl:mr-8 w-96"
+            className="mt-4 xl:mr-8 md:w-96 rounded-full w-48"
           />
         </div>
       </div>
