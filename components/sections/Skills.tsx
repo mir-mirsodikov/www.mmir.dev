@@ -51,7 +51,7 @@ export function Skills() {
   return (
     <Section title="Skills" id="skills">
       <div className="flex flex-row justify-between flex-wrap">
-        <div className="text-slate-400 mt-4 md:w-1/4 lg:w-1/3 space-y-4">
+        <div className="text-slate-400 mt-4 md:w-full lg:w-1/3 space-y-4">
           <p>
             I have accumulated a variety of skills and technologies. At work, I
             am currently working with TypeScript, React, and Node.js for our
