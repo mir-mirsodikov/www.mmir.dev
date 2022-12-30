@@ -1,31 +1,8 @@
 import Image from 'next/image';
 import portrait from '../../public/pic.jpeg';
 import { Section } from '../Section';
-import { SkillCard } from '../SkillCard';
 
 export function About() {
-  const skills = [
-    {
-      group: 'Languages',
-      skills: ['TypeScript', 'Go', 'JavaScript', 'Java', 'C++', 'HTML/CSS'],
-    },
-    {
-      group: 'Frontend',
-      skills: [
-        'React',
-        'React Native',
-        'Vue',
-        'Tailwind',
-        'Next.js',
-        'Nuxt.js',
-      ],
-    },
-    {
-      group: 'Backend',
-      skills: ['Node.js', 'Docker', 'Azure', 'Terraform', 'SQL', 'MongoDB'],
-    },
-  ];
-
   return (
     <Section id="about" title="About Me">
       <div className="flex flex-row justify-between flex-wrap">
@@ -43,20 +20,6 @@ export function About() {
             while finishing my final semester of college at Wichita State
             University, where I am studying Computer Science.
           </p>
-
-          <h3 className="font-semibold text-lg text-slate-300 mt-8">
-            My Skills
-          </h3>
-          {skills.map(({ group, skills }) => (
-            <div key={group}>
-              <h4 className="font-semibold text-slate-300 mt-4">{group}</h4>
-              <div className="flex flex-wrap">
-                {skills.map((skill) => (
-                  <SkillCard key={skill} title={skill} />
-                ))}
-              </div>
-            </div>
-          ))}
         </div>
         <div className="items-start md:order-none order-first m-auto">
           <Image

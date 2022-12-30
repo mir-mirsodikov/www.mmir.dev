@@ -1,7 +1,8 @@
+import { About } from '../components/sections/About';
 import { Contact } from '../components/sections/Contact';
 import { Projects } from '../components/sections/Projects';
-import { About } from '../components/sections/About';
 import { WorkExperience } from '../components/sections/Work';
+import { Skills } from '../components/sections/Skills';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       </div>
 
       <About />
+      <Skills />
       <WorkExperience />
       <Projects />
       <Contact />
