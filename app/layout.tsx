@@ -1,6 +1,6 @@
 import { AnalyticsWrapper } from '../components/Analytics';
-import { NavBar } from '../components/NavBar';
-import { NavigationDrawer } from '../components/NavigationDrawer';
+import { NavBar } from '../components/navigation/NavBar';
+import { NavigationDrawer } from '../components/navigation/NavigationDrawer';
 import './globals.css';
 
 export default function RootLayout({

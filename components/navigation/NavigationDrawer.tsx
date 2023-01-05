@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import { MenuIcon } from './Icons';
+import { MenuIcon } from '../Icons';
 
 export function NavigationDrawer() {
   const [visible, setVisible] = useState(false);
