@@ -16,7 +16,7 @@ export default function RootLayout({
       */}
       <head />
       <body className="bg-slate-900 font-mono" id='home'>
-        <div className="md:visible invisible md:sticky md:top-0 md:z-50">
+        <div className="md:flex hidden md:sticky md:top-0 md:z-50">
           <NavBar />
         </div>
 
