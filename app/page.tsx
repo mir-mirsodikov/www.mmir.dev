@@ -21,8 +21,8 @@ export default function Home() {
           tools at StaffWise.
         </p>
 
-        <a href="Mirmukhammad_Mirsodikov_Resume.pdf" target="_blank">
-          <button className="rounded-md bg-transparent border border-indigo-500 p-4 mt-8 text-indigo-500 hover:bg-indigo-500/20 transition duration-200 ease-in">
+        <a href="Mirmukhammad_Mirsodikov_Resume.pdf" aria-label="Resume for Mirmukhammad Mirsodikov" target="_blank">
+          <button className="rounded-md bg-transparent border border-indigo-500 p-4 mt-8 text-indigo-400 hover:bg-indigo-500/20 transition duration-200 ease-in">
             Resume
           </button>
         </a>

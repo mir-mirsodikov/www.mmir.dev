@@ -25,7 +25,7 @@ export function MenuIcon({ onClick }: IconProps) {
 
 export function LaunchIcon({ link }: IconProps) {
   return (
-    <a href={link} target="_blank" rel="noreferrer">
+    <a href={link} target="_blank" aria-label='Opens the link in a new page' rel="noreferrer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -45,7 +45,7 @@ export function LaunchIcon({ link }: IconProps) {
 
 export function GitHubIcon({ link }: IconProps) {
   return (
-    <a href={link} target="_blank" rel="noreferrer">
+    <a href={link} target="_blank" aria-label='Opens the page for the GitHub project' rel="noreferrer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="w-6 h-6 hover:fill-indigo-500 fill-slate-400"
@@ -60,7 +60,7 @@ export function GitHubIcon({ link }: IconProps) {
 
 export function LinkedInIcon({ link }: IconProps) {
   return (
-    <a href={link} target="_blank" rel="noreferrer">
+    <a href={link} target="_blank" aria-label='Opens LinkedIn page for Mirmukhammad Mirsodikov' rel="noreferrer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="w-6 h-6 hover:fill-indigo-500 fill-slate-400"

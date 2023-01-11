@@ -71,7 +71,7 @@ export function Skills() {
             ({ group, skills }, index) =>
               index < 4 && (
                 <div key={group}>
-                  <h4 className="font-semibold text-slate-300 mt-4">{group}</h4>
+                  <p className="font-semibold text-slate-300 mt-4">{group}</p>
                   <div className="flex flex-row flex-wrap">
                     {skills.map((skill) => (
                       <SkillCard key={skill} title={skill} />
