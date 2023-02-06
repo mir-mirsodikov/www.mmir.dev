@@ -23,6 +23,16 @@
     "github": "https://github.com/Hermes-Chat-App"
   },
   {
+    "name": "Chess.com Analysis Companion",
+    "description": "A connection of the Chess.com API with ChessCompass to allow users to view their analysis for free and conveniently.",
+    "skills": [
+      "Next",
+      "React"
+    ],
+    "github": "https://github.com/mir-mirsodikov/chesscom-analysis",
+    "link": "https://chesscom-analysis.vercel.app/"
+  },
+  {
     "name": "Portfolio",
     "description": "My personal portfolio website. This very website you're looking at right now.",
     "skills": [
