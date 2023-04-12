@@ -1,0 +1,70 @@
+[
+  {
+    "group": "Languages",
+    "skills": [
+      "TypeScript",
+      "Go",
+      "JavaScript",
+      "Java",
+      "C++",
+      "C#",
+      "Python"
+    ]
+  },
+  {
+    "group": "Frontend",
+    "skills": [
+      "React",
+      "React Native",
+      "Vue",
+      "Next.js",
+      "Nuxt.js",
+      "Angular"
+    ]
+  },
+  {
+    "group": "Backend",
+    "skills": [
+      "Node.js",
+      "Express",
+      "Gin",
+      "REST APIs",
+      "JWT",
+      ".NET Core"
+    ]
+  },
+  {
+    "group": "Database",
+    "skills": [
+      "PostgreSQL",
+      "Microsoft SQL Server",
+      "MongoDB",
+      "Snowflake"
+    ]
+  },
+  {
+    "group": "Infrastructure",
+    "skills": [
+      "AWS",
+      "Docker",
+      "Terraform",
+      "Azure"
+    ]
+  },
+  {
+    "group": "Foreign Languages",
+    "skills": [
+      "Russian",
+      "Uzbek"
+    ]
+  },
+  {
+    "group": "Other",
+    "skills": [
+      "Git",
+      "Linux",
+      "Agile",
+      "CI/CD"
+    ]
+  }
+]

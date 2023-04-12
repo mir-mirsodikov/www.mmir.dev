@@ -17,11 +17,15 @@ export default function Home() {
         </p>
         <p className="mt-6 text-slate-400 lg:w-1/2 ">
           I am a software engineer specializing in full stack web and mobile
-          development. I am currently working on a suite of hospital budgeting
-          tools at StaffWise.
+          development. I am currently working at Koch Minerals & Trading as a
+          Software Engineer.
         </p>
 
-        <a href="Mirmukhammad_Mirsodikov_Resume.pdf" aria-label="Resume for Mirmukhammad Mirsodikov" target="_blank">
+        <a
+          href="Mirmukhammad_Mirsodikov_Resume.pdf"
+          aria-label="Resume for Mirmukhammad Mirsodikov"
+          target="_blank"
+        >
           <button className="rounded-md bg-transparent border border-indigo-500 p-4 mt-8 text-indigo-400 hover:bg-indigo-500/20 transition duration-200 ease-in">
             Resume
           </button>

@@ -16,7 +16,7 @@ export function WorkExperience() {
 
   return (
     <Section id="work" title="Work Experience">
-      <div className="mt-8 grid md:grid-cols-2 gap-4">
+      <div className="mt-8 grid lg:grid-cols-2 gap-4">
         {workExperience.map((experience) => (
           <Card
             key={experience.company}

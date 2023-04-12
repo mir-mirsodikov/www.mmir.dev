@@ -34,7 +34,7 @@
   },
   {
     "name": "Portfolio",
-    "description": "My personal portfolio website. This very website you're looking at right now.",
+    "description": "My personal portfolio website. Showcasing my skills, work, and projects. This very website you're looking at right now!",
     "skills": [
       "React",
       "Next",
@@ -45,7 +45,7 @@
   },
   {
     "name": "Research Survey",
-    "description": "A web application that allows users to create prompts and share them with participants. Each word in a prompt is shown to the participant one at a time at a speed predetermined by the creator to see the effects of speed on the participant's ability to detect lies.",
+    "description": "A web application that allows users to create survey prompts and share them with participants for lie detection research.",
     "skills": [
       "Vue",
       "TypeScript",

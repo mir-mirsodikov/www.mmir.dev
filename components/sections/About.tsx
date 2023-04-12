@@ -15,8 +15,7 @@ export function About() {
             I have also started working on mobile applications.
           </p>
           <p>
-            Today, I am working as a full stack developer at StaffWise, where we
-            are building a suite of hospital budgeting tools. I am doing this
+            Today, I am working as a Software Engineer at Koch Minerals & Trading,
             while finishing my final semester of college at Wichita State
             University, where I am studying Computer Science.
           </p>
