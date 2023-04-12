@@ -1,0 +1,58 @@
+[
+  {
+    "company": "Koch Minerals & Trading",
+    "title": "Software Engineer",
+    "employmentDates": "February 2023 - Present",
+    "description": [
+      "Maintaining a web application used by the finance department to manage and track transactions.",
+      "Leveraging AWS services to build a scalable and reliable applications.",
+      "Developing stored procedures and views in Snowflake to support the application.",
+      "Implementing a messaging system using RabbitMQ to decouple services and improve scalability."
+    ],
+    "skills": [
+      "Snowflake",
+      "C#",
+      "RabbitMQ",
+      "Event Driven Architecture",
+      ".NET Core",
+      "Angular",
+      "AWS"
+    ]
+  },
+  {
+    "company": "StaffWise",
+    "title": "Software Engineer",
+    "employmentDates": "July 2021 - February 2023",
+    "description": [
+      "Designed and built REST APIs to power a healthcare financial web application for budgeting and staffing.",
+      "Constructed database relations and procedures in Microsoft SQL Server.",
+      "Architected resources in Microsoft Azure using Terraform to automate resource deployments.",
+      "Implemented UI using React and its ecosystem to deliver exceptional user experiences."
+    ],
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Terraform",
+      "Microsoft SQL Server",
+      "Microsoft Azure",
+      "REST APIs"
+    ]
+  },
+  {
+    "company": "Textron Aviation",
+    "title": "Software Engineer",
+    "employmentDates": "June 2022 - August 2022",
+    "description": [
+      "Developed applications using Java that automate processes for engineers in their design modelling application.",
+      "Addressed prevalent problems of previous projects with clear and maintainable solutions by enforcing application architecture and design patterns",
+      "Lead the team in migrating to Java 11 from Java 8 and adopting REST APIs over SOAP APIs"
+    ],
+    "skills": [
+      "Java",
+      "Java Swing",
+      "REST APIs",
+      "MVVM"
+    ]
+  }
+]
