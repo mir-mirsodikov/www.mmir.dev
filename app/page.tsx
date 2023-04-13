@@ -1,8 +1,8 @@
 import { About } from '../components/sections/About';
 import { Contact } from '../components/sections/Contact';
 import { Projects } from '../components/sections/Projects';
-import { WorkExperience } from '../components/sections/Work';
 import { Skills } from '../components/sections/Skills';
+import { WorkExperience } from '../components/sections/Work';
 
 export default function Home() {
   return (
