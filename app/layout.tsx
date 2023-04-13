@@ -38,13 +38,10 @@ export default function RootLayout({
               }}
               transition={{
                 delay: 3,
-                duration: 2,
+                duration: 1,
               }}
               animate={{
                 opacity: 0,
-              }}
-              onAnimationEnd={() => {
-                setJustLoaded(false);
               }}
               onAnimationComplete={() => {
                 setJustLoaded(false);
