@@ -31,7 +31,7 @@ export function Projects() {
           >
             <div className="flex flex-col justify-between content-between">
               <div className="">
-                <p className="text-slate-400 my-4">{project.description}</p>
+                <p className="text-slate-300 my-4">{project.description}</p>
               </div>
 
               <div className='block'>

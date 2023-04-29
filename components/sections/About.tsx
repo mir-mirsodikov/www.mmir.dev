@@ -6,7 +6,7 @@ export function About() {
   return (
     <Section id="about" title="About Me">
       <div className="flex flex-row justify-between flex-wrap">
-        <div className="md:w-1/2 text-slate-400 mt-4 space-y-4">
+        <div className="md:w-1/2 text-slate-300 mt-4 space-y-4">
           <p>
             My name is Mirmukhammad Mirsodikov and I am a software engineer. I
             love learning and building applications that solve real world

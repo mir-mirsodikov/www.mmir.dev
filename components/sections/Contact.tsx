@@ -4,7 +4,7 @@ import { Section } from '../Section';
 export function Contact() {
   return (
     <Section id="contact" title="Contact">
-      <p className="text-slate-400 lg:w-3/4 lg:mx-auto mt-8">
+      <p className="text-slate-300 lg:w-3/4 lg:mx-auto mt-8">
         I am currently looking for a full time software engineering position. If
         you have any questions or would like to get in touch, feel free to reach
         out to me at {' '}

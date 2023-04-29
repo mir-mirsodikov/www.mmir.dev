@@ -22,7 +22,7 @@ export function WorkExperience() {
             key={experience.company}
             title={`${experience.company} - ${experience.title}`}
           >
-            <p className="text-slate-400 text-sm">
+            <p className="text-slate-300 text-sm">
               {experience.employmentDates}
             </p>
             <ul className="list-disc text-slate-300 ml-4 mt-4 space-y-2 text-base mb-2">
