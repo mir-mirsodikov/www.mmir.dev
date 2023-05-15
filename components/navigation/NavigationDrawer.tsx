@@ -6,10 +6,6 @@ import { CloseIcon, MenuIcon } from '../Icons';
 
 export function NavigationDrawer() {
   const [visible, setVisible] = useState(false);
-  const springs = useSpring({
-    from: { transform: 'translateX(100%)' },
-    to: { transform: visible ? 'translateX(0%)' : 'translateX(100%)' },
-  });
 
   const transitions = useTransition(visible, {
     from: { transform: 'translateX(100%)' },
