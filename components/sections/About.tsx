@@ -16,7 +16,7 @@ export function About() {
           <p>
             I am a passionate and dedicated software engineer who thrives on learning
             new technologies and finding innovative solutions to complex problems.
-            With a strong enthusiasm for building tools that enhance people's lives,
+            With a strong enthusiasm for building tools that enhance people&apos;s lives,
             I constantly challenge myself to push the boundaries of what is possible.
             I am fueled by the opportunity to contribute to meaningful
             projects and make a positive impact through my work.
