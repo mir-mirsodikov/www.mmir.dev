@@ -1,5 +1,16 @@
 [
   {
+    "name": "Vulcan",
+    "description": "CLI tool for generating pages, routes, components, and more for JS meta frameworks like Next.js, Nuxt.js, SvelteKit, and more. Automate your workflow and save time.",
+    "skills": [
+      "Go",
+      "Cobra",
+      "CLI",
+      "Viper"
+    ],
+    "github": "https://github.com/mir-mirsodikov/vulcan"
+  },
+  {
     "name": "GymArc",
     "description": "Cross platform mobile application designed to allow users to track their gym workouts, view their previous workouts, create templates and plans, and view their progress.",
     "skills": [

@@ -10,26 +10,35 @@ export function About() {
           <p>
             My name is Mirmukhammad Mirsodikov and I am a software engineer. I
             love learning and building applications that solve real world
-            problems. I started working in web development in 2019 as a senior
-            in high school, and have loved every bit of the journey. Since then,
-            I have also started working on mobile applications.
+            problems. I am working as a Software Engineer at Koch Minerals &
+            Trading.
           </p>
           <p>
-            Today, I am working as a Software Engineer at Koch Minerals & Trading,
-            while finishing my final semester of college at Wichita State
-            University, where I am studying Computer Science.
+            I am a passionate and dedicated software engineer who thrives on learning
+            new technologies and finding innovative solutions to complex problems.
+            With a strong enthusiasm for building tools that enhance people's lives,
+            I constantly challenge myself to push the boundaries of what is possible.
+            I am fueled by the opportunity to contribute to meaningful
+            projects and make a positive impact through my work.
           </p>
           <p>
-            In my free time, I enjoy working out, running, playing chess, and origami. 
+            My insatiable curiosity drives me to continuously research and explore new areas,
+            always seeking to expand my knowledge and stay ahead of the rapidly evolving tech landscape.
+            I take pride in suggesting fresh perspectives and approaches,
+            constantly striving to improve processes and deliver the best results.
+          </p>
+          <p>
+            In my free time, I enjoy working out, running, playing chess, and origami.
             Currently, my free time is taken up by research and development of my own projects,
-            where I am learning about building real time, concurrent, and distributed systems.
+            where I am building a CLI for JavaScript developers, to help them speed up their
+            development process with meta frameworks like Next.js.
           </p>
         </div>
         <div className="items-start md:order-none order-first m-auto">
           <Image
             src={portrait}
             alt="Self portrait"
-            className="mt-4 xl:mr-8 md:w-96 flex rounded-full w-48"
+            className="mt-4 xl:mr-8 md:w-96 flex rounded-full w-48 shadow-2xl shadow-indigo-600/50"
           />
         </div>
       </div>
