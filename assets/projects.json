@@ -1,5 +1,17 @@
 [
   {
+    "name": "Aegis",
+    "description": "A simple and secure way to share secrets across the web. Web app that allows you to create short lived secrets that are deleted once they are viewed.",
+    "skills": [
+      "Svelte",
+      "SvelteKit",
+      "MySQL",
+      "Prisma"
+    ],
+    "github": "https://github.com/mir-mirsodikov/aegis",
+    "link": "https://aegis.mmir.dev"
+  },
+  {
     "name": "Vulcan",
     "description": "CLI tool for generating pages, routes, components, and more for JS meta frameworks like Next.js, Nuxt.js, SvelteKit, and more. Automate your workflow and save time.",
     "skills": [
