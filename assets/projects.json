@@ -1,5 +1,17 @@
 [
   {
+    "name": "Astrorpheus",
+    "description": "Upload 2D space images to convert them into 3D models and create sounds for them to experience space in a new way. Winner of the 2023 NASA Space Apps Challenge.",
+    "skills": [
+      "Next",
+      "3D Models",
+      "AWS",
+      "Sonification"
+    ],
+    "github": "https://github.com/orgs/AstraeusTech/repositories",
+    "link": "https://www.astrorpheus.com"
+  },
+  {
     "name": "Aegis",
     "description": "A simple and secure way to share secrets across the web. Web app that allows you to create short lived secrets that are deleted once they are viewed.",
     "skills": [
