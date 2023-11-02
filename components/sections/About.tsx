@@ -30,8 +30,7 @@ export function About() {
           <p>
             In my free time, I enjoy working out, running, playing chess, and origami.
             Currently, my free time is taken up by research and development of my own projects,
-            where I am building a CLI for JavaScript developers, to help them speed up their
-            development process with meta frameworks like Next.js.
+            where I am building a SaaS for small team athletics to help manage their teams.
           </p>
         </div>
         <div className="items-start md:order-none order-first m-auto">

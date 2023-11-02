@@ -45,19 +45,6 @@
     ]
   },
   {
-    "name": "Hermes",
-    "description": "A web application for real-time communication between users. Users can create rooms and invite other users to join them. A web-based, open source alternative to Discord.",
-    "skills": [
-      "Vue",
-      "Nuxt",
-      "TypeScript",
-      "Go",
-      "JWT",
-      "PostgreSQL"
-    ],
-    "github": "https://github.com/Hermes-Chat-App"
-  },
-  {
     "name": "Chess.com Analysis Companion",
     "description": "A connection of the Chess.com API with ChessCompass to allow users to view their analysis for free and conveniently.",
     "skills": [
