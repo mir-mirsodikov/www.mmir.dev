@@ -1,9 +1,4 @@
-'use client';
-
-import { Metadata } from 'next';
-import { useState } from 'react';
 import { AnalyticsWrapper } from '../components/Analytics';
-import { AnimatedIntro } from '../components/AnimatedIntro';
 import { NavBar } from '../components/navigation/NavBar';
 import { NavigationDrawer } from '../components/navigation/NavigationDrawer';
 import './globals.css';
@@ -14,12 +9,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [justLoaded, setJustLoaded] = useState(true);
-
   return (
     <html
       lang="en"
-      className={`${justLoaded ? `overflow-hidden` : 'overflow-auto'}`}
     >
       <Head />
       <body className={`bg-slate-900 font-mono`} id="home">
@@ -30,10 +22,6 @@ export default function RootLayout({
         <div className="md:hidden">
           <NavigationDrawer />
         </div>
-
-        {justLoaded && (
-          <AnimatedIntro onAnimationComplete={() => setJustLoaded(false)} />
-        )}
 
         {children}
 
