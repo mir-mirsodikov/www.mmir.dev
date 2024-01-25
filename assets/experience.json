@@ -5,7 +5,7 @@
     "employmentDates": "February 2023 - Present",
     "description": [
       "Streamlined and enhanced financial transaction management by maintaining a critical web application utilized by the finance department for managing invoices",
-      "Developing a finance settlement application support chatbot utilizing Azure OpenAI, leading to expedited issue resolution and reduced manpower requirements from a team of 50 to 1 person",
+      "Developed a finance settlement application support chatbot utilizing Azure OpenAI, leading to expedited issue resolution and reduced manpower requirements from a team of 50 to 1 person",
       "Implemented an optimized data flow pipeline on AWS, resulting in significant cost savings of thousands of dollars per month and performance gains by 75% by replacing the existing process"
     ],
     "skills": [
@@ -27,7 +27,7 @@
     "description": [
       "Successfully designed and implemented a healthcare financial web application to empower hospitals with their staffing, resulting in $50,000 of savings monthly for hospitals",
       "Orchestrated resource provisioning and service deployment in Microsoft Azure using Terraform, establishing a scalable infrastructure",
-      "Transformed hospital onboarding process by developing a serverless user flow in Azure, enabling seamless Excel file uploads and data parsing, slashing onboarding time from hours to minutes.",
+      "Transformed hospital onboarding process by developing a serverless user flow in Azure, enabling seamless Excel file uploads and data parsing, slashing onboarding time from hours to minutes",
       "Efficiently managed 6-member cross-functional team, overseeing end-to-end project lifecycles, stakeholder satisfaction, and successful achievement of project objectives"
     ],
     "skills": [
@@ -46,7 +46,7 @@
     "employmentDates": "June 2022 - August 2022",
     "description": [
       "Led the team in migrating to Java 11 from Java 8 and adopting REST APIs over SOAP APIs, empowering the team to embrace modern practices and unlock optimized performance, scalability, and productivity",
-      "Developed applications using Java to automate processes for engineers in their design modelling applications, resulting in faster turnaround times to publish and review plane schematics",
+      "Developed applications using Java to automate processes for engineers in their design modeling applications, resulting in faster turnaround times to publish and review plane schematics",
       "Addressed project issues with maintainable solutions through architecture and design patterns, leading to more consistent projects and facilitating easier onboarding of new team members"
     ],
     "skills": [
