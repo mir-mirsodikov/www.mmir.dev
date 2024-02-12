@@ -10,27 +10,29 @@ export function About() {
           <p>
             My name is Mirmukhammad Mirsodikov and I am a software engineer. I
             love learning and building applications that solve real world
-            problems. I am working as a Software Engineer at Koch Minerals &
-            Trading.
+            problems. I am currently looking for new opportunities.
           </p>
           <p>
-            I am a passionate and dedicated software engineer who thrives on learning
-            new technologies and finding innovative solutions to complex problems.
-            With a strong enthusiasm for building tools that enhance people&apos;s lives,
-            I constantly challenge myself to push the boundaries of what is possible.
-            I am fueled by the opportunity to contribute to meaningful
-            projects and make a positive impact through my work.
+            I am a passionate and dedicated software engineer who thrives on
+            learning new technologies and finding innovative solutions to
+            complex problems. With a strong enthusiasm for building tools that
+            enhance people&apos;s lives, I constantly challenge myself to push
+            the boundaries of what is possible. I am fueled by the opportunity
+            to contribute to meaningful projects and make a positive impact
+            through my work.
           </p>
           <p>
-            My insatiable curiosity drives me to continuously research and explore new areas,
-            always seeking to expand my knowledge and stay ahead of the rapidly evolving tech landscape.
-            I take pride in suggesting fresh perspectives and approaches,
-            constantly striving to improve processes and deliver the best results.
+            My insatiable curiosity drives me to continuously research and
+            explore new areas, always seeking to expand my knowledge and stay
+            ahead of the rapidly evolving tech landscape. I take pride in
+            suggesting fresh perspectives and approaches, constantly striving to
+            improve processes and deliver the best results.
           </p>
           <p>
-            In my free time, I enjoy working out, running, playing chess, and origami.
-            Currently, my free time is taken up by research and development of my own projects,
-            where I am building a SaaS for small team athletics to help manage their teams.
+            In my free time, I enjoy working out, running, playing chess,
+            climbing, and origami. Currently, my free time is taken up by
+            research and development of my own projects, where I am building a
+            SaaS for small team athletics to help manage their teams.
           </p>
         </div>
         <div className="items-start md:order-none order-first m-auto">

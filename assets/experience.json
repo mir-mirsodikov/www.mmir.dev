@@ -2,7 +2,7 @@
   {
     "company": "Koch Minerals & Trading",
     "title": "Software Engineer",
-    "employmentDates": "February 2023 - Present",
+    "employmentDates": "February 2023 - January 2024",
     "description": [
       "Streamlined and enhanced financial transaction management by maintaining a critical web application utilized by the finance department for managing invoices",
       "Developed a finance settlement application support chatbot utilizing Azure OpenAI, leading to expedited issue resolution and reduced manpower requirements from a team of 50 to 1 person",
@@ -23,11 +23,11 @@
   {
     "company": "StaffWise",
     "title": "Software Engineer",
-    "employmentDates": "July 2021 - June 2023",
+    "employmentDates": "January 2021 - February 2023",
     "description": [
       "Successfully designed and implemented a healthcare financial web application to empower hospitals with their staffing, resulting in $50,000 of savings monthly for hospitals",
       "Orchestrated resource provisioning and service deployment in Microsoft Azure using Terraform, establishing a scalable infrastructure",
-      "Transformed hospital onboarding process by developing a serverless user flow in Azure, enabling seamless Excel file uploads and data parsing, slashing onboarding time from hours to minutes",
+      "Transformed hospital onboarding process by developing a serverless user flow in Azure, enabling seamless Excel file uploads and data parsing, improving the onboarding process time by 90%",
       "Efficiently managed 6-member cross-functional team, overseeing end-to-end project lifecycles, stakeholder satisfaction, and successful achievement of project objectives"
     ],
     "skills": [

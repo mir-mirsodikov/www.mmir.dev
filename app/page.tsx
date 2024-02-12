@@ -50,7 +50,7 @@ export default function Home() {
             transition={{ duration: 0.3, delay: 0.2 }}
             className="mt-5 md:text-6xl lg:text-7xl text-3xl text-indigo-300 font-bold"
           >
-            I build things, I guess.
+            I build cool things for the web.
           </motion.p>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -59,8 +59,8 @@ export default function Home() {
             className="mt-6 text-slate-300 lg:w-1/2 "
           >
             I am a software engineer specializing in full stack web and mobile
-            development. I am currently working at Koch Minerals & Trading as a
-            Software Engineer.
+            development. I am currently looking for new opportunities to work
+            with a team of passionate developers.
           </motion.p>
           <motion.a
             initial={{ y: 50, opacity: 0 }}
