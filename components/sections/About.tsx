@@ -10,7 +10,7 @@ export function About() {
           <p>
             My name is Mirmukhammad Mirsodikov and I am a software engineer. I
             love learning and building applications that solve real world
-            problems. I am currently looking for new opportunities.
+            problems. I am currently working at INTRUST Bank as a Software Engineer.
           </p>
           <p>
             I am a passionate and dedicated software engineer who thrives on

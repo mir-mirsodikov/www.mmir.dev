@@ -5,8 +5,8 @@ export function Contact() {
   return (
     <Section id="contact" title="Contact">
       <p className="text-slate-300 lg:w-3/4 lg:mx-auto mt-8">
-        I am currently seeking new opportunities. I always welcome new
-        connections and learning about potential opportunities. If you have any
+        Although I am not currently looking for new opportunities, I am always
+        interested in networking and meeting new people. If you have any
         questions or would like to get in touch, feel free to reach out to me at{' '}
         <a
           href="mailto:mirsodikov.mir@gmail.com"
@@ -14,7 +14,7 @@ export function Contact() {
         >
           mirsodikov.mir@gmail.com
         </a>
-        . I enjoy meeting new people and exploring possibilities. You can also
+        . You can also
         find me on the platforms below.
       </p>
       <div className="flex flex-row justify-center space-x-2 mt-4">

@@ -1,5 +1,19 @@
 [
   {
+    "company": "INTRUST Bank",
+    "title": "Software Engineer",
+    "employmentDates": "March 2024 - Present",
+    "description": [
+      "Developing custom internal web applications to automate and streamline business processes"
+    ],
+    "skills": [
+      "C#",
+      ".NET Core",
+      "Blazor",
+      "SQL Server"
+    ]
+  },
+  {
     "company": "Koch Minerals & Trading",
     "title": "Software Engineer",
     "employmentDates": "February 2023 - January 2024",

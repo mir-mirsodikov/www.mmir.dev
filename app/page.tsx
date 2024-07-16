@@ -59,8 +59,7 @@ export default function Home() {
             className="mt-6 text-slate-300 lg:w-1/2 "
           >
             I am a software engineer specializing in full stack web and mobile
-            development. I am currently looking for new opportunities to work
-            with a team of passionate developers.
+            development. I am currently working at INTRUST Bank as a Software Engineer.
           </motion.p>
           <motion.a
             initial={{ y: 50, opacity: 0 }}
