@@ -4,7 +4,9 @@
     "title": "Software Engineer",
     "employmentDates": "March 2024 - Present",
     "description": [
-      "Developing custom internal web applications to automate and streamline business processes"
+      "Developing custom internal web applications to automate and streamline business processes",
+      "Updated inefficient SQL queries to improve developer dashboard loading speeds by up to 90%",
+      "Led adoption of SQL Server Database Projects, improving efficiency and version control"
     ],
     "skills": [
       "C#",
