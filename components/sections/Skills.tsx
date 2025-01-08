@@ -1,9 +1,9 @@
-'use client';
-import { useState } from 'react';
-import { ChevronRight } from '../Icons';
-import { Section } from '../Section';
-import { SkillCard } from '../SkillCard';
-import SkillsJSON from '../../assets/skills.json';
+"use client";
+import { useState } from "react";
+import { ChevronRight } from "../Icons";
+import { Section } from "../Section";
+import { SkillCard } from "../SkillCard";
+import SkillsJSON from "../../assets/skills.json";
 
 interface SkillGroup {
   group: string;
@@ -11,11 +11,11 @@ interface SkillGroup {
 }
 
 export function Skills() {
-  const downAnimation = 'transition rotate-90 duration-150';
-  const upAnimation = 'transition rotate-0 duration-150';
+  const downAnimation = "transition rotate-90 duration-150";
+  const upAnimation = "transition rotate-0 duration-150";
 
-  const [more, setMore] = useState('hidden');
-  const [animate, setAnimate] = useState('');
+  const [more, setMore] = useState("hidden");
+  const [animate, setAnimate] = useState("");
 
   const skills = SkillsJSON as SkillGroup[];
   const skillGroupingCutoff = 5;
@@ -26,16 +26,14 @@ export function Skills() {
         <div className="text-slate-300 mt-4 md:w-full lg:w-1/3 space-y-4">
           <p>
             I have accumulated a variety of skills and technologies. At work, I
-            am currently working with TypeScript and Angular for our
-            frontend, and C# and .NET Core for the backend.
-            I am also working with AWS for our cloud
-            infrastructure.
+            am currently working with TypeScript and React for our frontend, and
+            C# and .NET Core for the backend.
           </p>
           <p>
             For my personal projects, I am currently working in a slew of
-            different areas. My primary focus has been on building a 
-            mobile app for weight training using React Native and Expo. I
-            am also working on a real time chat application using Go and WebSockets.
+            different areas. My primary focus has been on building a mobile app
+            for weight training using React Native and Expo. I am also working
+            on a real time chat application using Go and WebSockets.
           </p>
         </div>
         <div className="lg:m-auto">
@@ -56,12 +54,12 @@ export function Skills() {
             <div
               className="font-semibold text-slate-300 mt-4 flex flex-row hover:text-indigo-500 hover:cursor-pointer group"
               onClick={() => {
-                if (more === 'visible') {
-                  setMore('hidden');
+                if (more === "visible") {
+                  setMore("hidden");
                   setAnimate(upAnimation);
                   return;
                 }
-                setMore('visible');
+                setMore("visible");
                 setAnimate(downAnimation);
               }}
             >

@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import portrait from '../../public/pic.jpeg';
-import { Section } from '../Section';
+import Image from "next/image";
+import portrait from "../../public/pic.jpeg";
+import { Section } from "../Section";
 
 export function About() {
   return (
@@ -10,7 +10,7 @@ export function About() {
           <p>
             My name is Mirmukhammad Mirsodikov and I am a software engineer. I
             love learning and building applications that solve real world
-            problems. I am currently working at INTRUST Bank as a Software Engineer.
+            problems. I am currently working at Quest Analytics.
           </p>
           <p>
             I am a passionate and dedicated software engineer who thrives on

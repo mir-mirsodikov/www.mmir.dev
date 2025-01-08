@@ -1,19 +1,21 @@
 [
   {
+    "company": "Quest Analytics",
+    "title": "Software Engineer",
+    "employmentDates": "December 2024 - Present",
+    "description": [],
+    "skills": ["C#", ".NET Core", "React", "SQL Server", "TypeScript"]
+  },
+  {
     "company": "INTRUST Bank",
     "title": "Software Engineer",
-    "employmentDates": "March 2024 - Present",
+    "employmentDates": "March 2024 - December 2024",
     "description": [
       "Developing custom internal web applications to automate and streamline business processes",
       "Updated inefficient SQL queries to improve developer dashboard loading speeds by up to 90%",
       "Led adoption of SQL Server Database Projects, improving efficiency and version control"
     ],
-    "skills": [
-      "C#",
-      ".NET Core",
-      "Blazor",
-      "SQL Server"
-    ]
+    "skills": ["C#", ".NET Core", "Blazor", "SQL Server"]
   },
   {
     "company": "Koch Minerals & Trading",
@@ -65,11 +67,6 @@
       "Developed applications using Java to automate processes for engineers in their design modeling applications, resulting in faster turnaround times to publish and review plane schematics",
       "Addressed project issues with maintainable solutions through architecture and design patterns, leading to more consistent projects and facilitating easier onboarding of new team members"
     ],
-    "skills": [
-      "Java",
-      "Java Swing",
-      "REST APIs",
-      "MVVM"
-    ]
+    "skills": ["Java", "Java Swing", "REST APIs", "MVVM"]
   }
 ]

@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import { motion, useAnimationControls } from 'framer-motion';
-import { useState } from 'react';
-import { AnimatedIntro } from '../components/AnimatedIntro';
-import { About } from '../components/sections/About';
-import { Contact } from '../components/sections/Contact';
-import { Projects } from '../components/sections/Projects';
-import { Skills } from '../components/sections/Skills';
-import { WorkExperience } from '../components/sections/Work';
+import { motion, useAnimationControls } from "framer-motion";
+import { useState } from "react";
+import { AnimatedIntro } from "../components/AnimatedIntro";
+import { About } from "../components/sections/About";
+import { Contact } from "../components/sections/Contact";
+import { Projects } from "../components/sections/Projects";
+import { Skills } from "../components/sections/Skills";
+import { WorkExperience } from "../components/sections/Work";
 
 export default function Home() {
   const [justLoaded, setJustLoaded] = useState(true);
@@ -59,7 +59,7 @@ export default function Home() {
             className="mt-6 text-slate-300 lg:w-1/2 "
           >
             I am a software engineer specializing in full stack web and mobile
-            development. I am currently working at INTRUST Bank as a Software Engineer.
+            development. I am currently working at Quest Analytics.
           </motion.p>
           <motion.a
             initial={{ y: 50, opacity: 0 }}
@@ -68,7 +68,7 @@ export default function Home() {
             href="Mirmukhammad_Mirsodikov_Resume.pdf"
             aria-label="Resume for Mirmukhammad Mirsodikov"
             target="_blank"
-            className='w-fit h-fit mt-8'
+            className="w-fit h-fit mt-8"
           >
             <button className="rounded-md bg-transparent border border-indigo-500 p-4 text-indigo-400 hover:bg-indigo-500/20 transition duration-200 ease-in">
               View Resume
