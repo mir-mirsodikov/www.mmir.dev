@@ -6,7 +6,6 @@
       "Go",
       "JavaScript",
       "Java",
-      "C++",
       "C#",
       "Python"
     ]
@@ -18,7 +17,6 @@
       "React Native",
       "Vue",
       "Next.js",
-      "Nuxt.js",
       "Angular"
     ]
   },
@@ -26,11 +24,8 @@
     "group": "Backend",
     "skills": [
       "Node.js",
-      "Express",
-      "Gin",
       "REST APIs",
-      "JWT",
-      ".NET Core"
+      ".NET"
     ]
   },
   {

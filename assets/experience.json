@@ -3,8 +3,13 @@
     "company": "Quest Analytics",
     "title": "Software Engineer",
     "employmentDates": "December 2024 - Present",
-    "description": [],
-    "skills": ["C#", ".NET Core", "React", "SQL Server", "TypeScript"]
+    "description": [
+      "Architected and shipped a production Snowflake data platform from initial proof of concept, establishing the foundational architecture now scaling across the organization",
+      "Optimized Snowflake task performance for scenario modeling workloads, reducing run times from ~1 hour to seconds (>99% improvement)",
+      "Selected to lead a top-priority cost-reduction initiative migrating Snowflake workloads off task graphs, reducing the cost of Snowflake by half",
+      "Mentored a software engineering intern through to full-time conversion"
+    ],
+    "skills": ["C#", ".NET Core", "React", "SQL Server", "TypeScript", "Snowflake"]
   },
   {
     "company": "INTRUST Bank",
